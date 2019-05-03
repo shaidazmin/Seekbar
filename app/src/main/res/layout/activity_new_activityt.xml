@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context="com.example.nz.classsix.NewActivityt">
+
+    <RatingBar
+        android:layout_marginLeft="50sp"
+        android:padding="10sp"
+        android:id="@+id/rtingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:rating="2"
+        android:stepSize=".2"
+        android:progressBackgroundTint="#ff0000"
+        android:progressTint="#002fff"
+        android:numStars="5" />
+
+    <TextView
+        android:id="@+id/result"
+        android:textSize="25sp"
+        android:hint="Rating is : "
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="90sp" />
+
+
+    <SeekBar
+        android:layout_marginLeft="50sp"
+        android:padding="10sp"
+        android:id="@+id/seekBarID"
+         android:progressBackgroundTint="#0004ff"
+        android:progressTint="#000"
+        android:max="15"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+
+
+        />
+
+
+    <TextView
+        android:id="@+id/seekBarResult"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:textSize="25sp"/>
+
+
+
+    <Switch
+        android:layout_marginLeft="50sp"
+        android:padding="15sp"
+        android:id="@+id/switchID"
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000"
+
+        android:text="Switch "
+        />
+
+    <TextView
+        android:padding="10sp"
+        android:id="@+id/switchResult"
+        android:layout_width="match_parent"
+        android:layout_height="100sp"
+        android:textSize="25sp"/>
+
+</LinearLayout>
